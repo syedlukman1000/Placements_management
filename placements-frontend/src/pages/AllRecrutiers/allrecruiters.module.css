@@ -1,0 +1,56 @@
+.thisbody{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 1.5rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;}
+.name{
+  font-size: 18px;
+  margin-top: 0%;
+  margin-bottom: 0rem;
+}
+.description{
+  font-size: 0.9rem;
+  margin-top: 0%;
+  margin-bottom: 0rem;
+}
+.location{
+  font-size: 0.9rem;
+  color: #909090;
+  margin-top: 0px;
+}
+
+.image{
+  width: 100%;
+  height: auto;
+}
+
+.image_div{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.rightside{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  margin-left: 2rem;
+}
+  

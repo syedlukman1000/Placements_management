@@ -1,0 +1,132 @@
+
+.thisbody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.input:focus~span{
+    color:black;
+    font-size: 0.75rem;
+    padding: 0px 7px ;
+    left: 25px;
+    background-color: #ffffff;
+    transform: translatey(-7px);
+
+}
+.input:not(:placeholder-shown).input:not(:focus)~span{
+    color: #909090;
+    font-size: 0.75rem;
+    padding: 0px 7px;
+    left: 25px;
+    background-color: #ffffff;
+    transform: translateY(-7px);
+  }
+  
+.input:not(:placeholder-shown).input:not(:focus){
+    border: 1px solid #e4e4e4;
+    outline: none;
+  }
+
+.button{
+    width: 100%;
+    padding: 13px 4%;
+    border-radius: 20px;
+    background-color: #385529;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 3rem;
+}
+
+.control{
+    width:100%;
+    position:relative;
+
+}
+.control+.control{
+    margin-top: 2.5rem;
+
+}
+.control span{
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 15px 4%;
+    color: #909090;
+    pointer-events: none;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    transition: 0.3s;
+
+}
+.input,.control textarea{
+    font-size: 0.8rem;
+    width: 92%;
+    border-radius: 15px;
+    border: 1px solid #e4e4e4;
+    padding: 15px 4%;
+
+}
+
+
+.skillButton{
+    height:30px;
+    border-radius: 6px;
+    border: 1px solid #e4e4e4;
+    background-color: rgb(235, 132, 58);
+}
+
+.skillsInput{
+    font-size: 0.8rem;
+    width: 82%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #e4e4e4;
+    padding: 15px 4%;
+    /*height:35px;
+    width:80%;
+    position: relative;
+    border:1px solid #e4e4e4;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;*/
+    
+}
+
+.addButton{
+    height:40px;
+    background-color: #385529;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    color:azure;
+    border:1px solid #e4e4e4;
+    width:10%;
+    position: relative;  
+}
+
+.skill_div{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+.input_skill_div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}

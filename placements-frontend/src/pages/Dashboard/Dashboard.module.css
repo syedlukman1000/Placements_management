@@ -1,0 +1,186 @@
+.top_layer{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.single_box{
+    padding: 20px 25px;
+    border-radius: 7px;
+    background-color: #407FEE;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.single_box + .single_box{
+    margin-left: 40px;
+}
+.line{
+    width: 50%;
+    margin-top: 45px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid #e4e4e4;
+    
+}
+.display{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.upcoming_rounds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    
+}
+
+.upcoming{
+    padding:1rem 0.8rem;
+    border-bottom: 1px solid #e4e4e4;
+    width:60%;
+    display:flex;
+}
+
+.inner_upcoming{
+    width:100%;
+    justify-content: space-between;
+    flex-direction: row;
+    display:flex;
+    align-items: center;
+}
+p{
+    padding:5px;
+}
+
+.viewButton{
+    border-radius: 6px;
+    background-color: rgb(243, 106, 9);
+    border:none;
+    padding:6px 12px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.date_date{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #202124;
+    padding: 0;
+}
+
+.date_my{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: #909090;
+    padding: 0%;
+}
+
+.days_to_go{
+    margin: 0%;
+    padding: 0%;
+    font-size: 13px;
+    color: #909090;
+}
+.div_stats{
+    display: flex;
+    justify-content: center;
+    padding-left: 235px;
+    width: 750px;
+    margin-top: 3rem;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    font-size: 18px;
+    
+}
+.display2{
+    display: flex;
+    flex-direction: row;
+    
+    border-bottom: 1px solid #e4e4e4;
+    justify-content: space-between;
+}
+.display3{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #e4e4e4;
+    
+    
+    
+}
+.branch{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.branch1{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    
+}
+.branch2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    
+    
+    
+}
+.branch3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 45px;
+    letter-spacing: 25px;
+    
+    
+    
+}
+.branch4{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    
+    
+    
+}
+
+.innerdiv_stats{
+    display: flex;
+    flex-direction: row;
+    
+}
+.c1{
+padding-left: 10px;
+}
+
+
+
